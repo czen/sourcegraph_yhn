@@ -12,5 +12,5 @@
 #docker run -d --name=$app --restart always $options $image 1>&2
 
 options="-p $port:7080 -v $data_path/data:/data"
-docker run -d --name=$app --restart always $options --publish 2633:2633 --rm --volume ~/.sourcegraph/config:/etc/sourcegraph --volume ~/.sourcegraph/data:/var/opt/sourcegraph sourcegraph/server:3.0.1
+docker run -d --name=$app --restart always $options --publish 2633:2633 --volume ~/.sourcegraph/config:/etc/sourcegraph --volume ~/.sourcegraph/data:/var/opt/sourcegraph sourcegraph/server:3.0.1
 echo $?
