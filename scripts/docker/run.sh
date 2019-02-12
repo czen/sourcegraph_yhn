@@ -15,5 +15,4 @@
 #docker run -d --name=$app --restart always -p $port:7080 --publish 2633:2633 --volume ~/.sourcegraph/config:/etc/sourcegraph --volume ~/.sourcegraph/data:/var/opt/sourcegraph sourcegraph/server:3.0.1
 #echo $?
 
-# sudo  docker run -d --name=sourcegraph --restart always -p 3200:7080 --publish 2633:2633
-# --volume ~/.sourcegraph/config:/etc/sourcegraph --volume ~/.sourcegraph/data:/var/opt/sourcegraph sourcegraph/server:3.0.1
+sudo  docker run -d --name=sourcegraph --restart always -p 3200:7080 --publish 2633:2633 --volume ~/.sourcegraph/config:/etc/sourcegraph --volume ~/.sourcegraph/data:/var/opt/sourcegraph sourcegraph/server:3.0.1
