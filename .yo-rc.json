@@ -1,0 +1,18 @@
+{
+  "generator-dockerapp-yunohost": {
+    "beautifulName": "sourcegraph",
+    "defaultPathOption": "",
+    "forceSecureAccess": true,
+    "secureAccessOption": false,
+    "adminUserOption": false,
+    "enDescription": "sourcegraph",
+    "frDescription": "sourcegraph",
+    "urlApp": "sourcegraph.com",
+    "urlDockerHub": "https://hub.docker.com/r/sourcegraph/server/",
+    "authorName": "Anton Bagliy",
+    "authorEmail": "taccessviolation@gmail.com",
+    "idName": "sourcegraph",
+    "reverseProxyProtocol": "http",
+    "scriptsLoadSave": false
+  }
+}

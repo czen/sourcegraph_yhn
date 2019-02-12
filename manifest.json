@@ -1,0 +1,36 @@
+{
+    "name": "sourcegraph",
+    "id": "sourcegraph",
+    "url": "sourcegraph.com",
+    "packaging_format": 1,
+    "description": {
+        "en": "sourcegraph",
+        "fr": "sourcegraph"
+    },
+    "version": "1.0",
+    "license": "AGPL-3.0",
+    "maintainer": {
+        "name": "Anton Bagliy",
+        "email": "taccessviolation@gmail.com"
+    },
+    "requirements": {
+        "yunohost": ">= 2.7.2"
+    },
+    "services": [
+        "nginx"
+     ],
+    "multi_instance": true,
+    "arguments": {
+        "install" : [
+            {
+                "name": "domain",
+                "type": "domain",
+                "ask": {
+                    "en": "Choose a domain for sourcegraph",
+                    "fr": "Choisissez un domaine pour sourcegraph"
+                },
+                "example": "app.domain.org"
+            }
+        ]
+    }
+}
